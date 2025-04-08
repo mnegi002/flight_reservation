@@ -42,15 +42,15 @@ const Features = () => {
 
   return (
     <div className="flex flex-col p-4 items-center justify-center   bg-white">
-      <div className="container mx-auto  px-[60px]">
+      <div className="container mx-auto  xl:px-[60px]">
         <div className="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-4 gap-4">
           {features.map((feature, index) => (
             <div key={index} className="bg-gray-50 border border-blue-600 p-2 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex flex-col items-center text-blue-800 mb-4">
                 {feature.icon}
-                <h3 className="text-xl font-bold text-blue-800 ">{feature.title}</h3>
+                <h3 className="text-[18px] font-bold text-blue-800 ">{feature.title}</h3>
               </div>
-              <p className="text-gray-600 text-center ">{feature.description}</p>
+              <p className="text-gray-600 text-smtext-center ">{feature.description}</p>
             </div>
           ))}
         </div>

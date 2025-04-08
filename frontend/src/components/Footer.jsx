@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-blue-900 w-full text-white ">
       <div className="  w-full">
         {/* Quick Links */}
-        <div className="mb-8 px-40 pt-4">
+        <div className="mb-8 px-4 sm:px-40 pt-4">
           <h3 className="text-lg font-bold mb-4 uppercase">Quick Links</h3>
           <div className="flex flex-wrap gap-4 md:gap-6 text-sm">
             <Link to="/about" className="text-white transition">About Us</Link>
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         {/* Contact Info */}
-        <div className="mb-8 px-40 ">
+        <div className="mb-8 sm:px-40 px-4 ">
           <h3 className="text-lg font-bold mb-4 uppercase">Contact Info</h3>
           <div className="flex flex-wrap items-center gap-4 md:gap-6 text-sm">
             <div className="flex items-center gap-2">
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         {/* Disclaimer */}
-        <div className="mb-6 text-sm px-40 text-white">
+        <div className="mb-6 text-sm sm:px-40 px-4 text-white">
             <p className='text-lg font-bold mb-4 uppercase'>Disclaimer</p>
           <p>
             Air Flight Cart is a travel reservations portal in the United States. We don't have any subsidiary or sister company. 
@@ -51,7 +51,7 @@ const Footer = () => {
             for any kind of loss or damage by using this website or by browsing the Air Flight Cart.
           </p>
         </div>
-        <div className='bg-white flex items-center justify-center space-x-5 p-2'>
+        <div className='bg-white flex items-center justify-center sm:space-x-5 space-x-1 p-2'>
             <img src='/images/6.png' alt='card'/>
             <img src='/images/7.png' alt='card'/>
 
@@ -63,7 +63,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="flex items-center gap-2 p-4 justify-center text-xs text-white">
           <FaCopyright />
-          <span>Copyright © 2024 Airflightcart.us is a unit of Airflightcart LLC. All Rights Reserved</span>
+          <span>Copyright © 2025 Airflightcart.us is a unit of Airflightcart LLC. All Rights Reserved</span>
         </div>
       </div>
     </footer>

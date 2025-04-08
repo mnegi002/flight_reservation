@@ -56,9 +56,12 @@ const HeroSection  = () => {
             {/* <p className="text-xl text-white mb-8">
               Discover amazing destinations at unbeatable prices
             </p> */}
-            <div className="flex text-white text-2xl w-full items-center justify-center  px-4 py-2  font-bold">
-            <IoCallSharp className=' p-2 rounded-full bg-red-500 mr-4' size={40}/>
+            <div className="flex text-white text-lg  sm:text-2xl w-full items-center justify-center  px-4 py-2  font-bold">
+            <IoCallSharp className='  rounded-full bg-red-500  w-12 sm:h-12 p-2 lg:mr-4' size={40}/>
+            <div>
+
               FOR PHONE-ONLY FLIGHT DEALS, CALL <span className='text-red-500 ml-2'>+1-888-928-1369</span>
+            </div>
             </div>
           </div>
 

@@ -101,7 +101,7 @@ const PopularDestinations = () => {
         </div>
 
         {/* Destination Cards */}
-        <div className="grid grid-cols-2 mx-auto  md:grid-cols-5 max-w-4xl  mb-12">
+        <div className="grid grid-cols-1 mx-auto space-y-2 md:grid-cols-3 lg:grid-cols-5 max-w-4xl  mb-12">
           {destinations.map((dest, index) => (
             <div key={index} className="flex  flex-col items-center">
               <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden mb-4">
@@ -120,10 +120,10 @@ const PopularDestinations = () => {
         {/* Flight Routes */}
         <div className="mb-8 ">
           <h3 className="text-2xl font-bold  text-gray-800 mb-6 text-center">Domestic & International Routes</h3>
-          <div className="grid grid-cols-1 mx-auto  max-w-5xl md:grid-cols-2 p-8  gap-6">
+          <div className="grid grid-cols-1  mx-auto  max-w-5xl md:grid-cols-2 p-8  gap-6">
             {routes.map((route, index) => (
-              <div key={index} className="border shadow-xl  border-blue-600 rounded-lg  hover:shadow-md transition-shadow">
-                <div className="flex  items-center  justify-around h-full text-center mb-4">
+              <div key={index} className="border shadow-xl md:p-2  border-blue-600 rounded-lg  hover:shadow-md transition-shadow">
+                <div className="flex sm:flex-row flex-col items-center  justify-around h-full text-center mb-4">
                   <div className="w-14 h-10   overflow-hidden ">
                     <img
                       src={route.image}
